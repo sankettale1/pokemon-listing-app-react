@@ -20,7 +20,7 @@ This is a React.js application of Pokémon listing.
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/VasanthaDeepikaOff/pokemon-listing-app.git
+   git clone git@github.com:sankettale1/pokemon-listing-app-react.git
    ```
 2. Navigate to the project folder:
    ```sh
