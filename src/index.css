@@ -1,13 +1,74 @@
+/* Reset some defaults */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: sans-serif;
+  background-color: #000; /* black background for the right side */
+  color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Sidebar styling */
+aside {
+  width: 250px;
+  background-color: #333; /* dark grey */
+  padding: 1rem;
+  overflow-y: auto;
+  height: 100vh;
+  margin-left: 10px; /* left margin for sidebar */
+  box-sizing: border-box;
+  margin-top: 14px;
+}
+
+/* Sidebar heading */
+aside h2 {
+  color: #DE3163;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Pokémon list */
+aside ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+aside li {
+  margin-bottom: 0.5rem;
+}
+
+aside a {
+  color: white;
+  text-decoration: none;
+}
+
+aside a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+main {
+  padding: 2rem;
+  flex: 1;
+  background-color: black;
+  color: white;
+}
+
+/* Pokémon image */
+main img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Abilities list */
+main h3 {
+  margin-top: 1rem;
+  color: #E49B0F;
+}
+
+main li {
+  color: #E49B0F;
+  list-style-type:  disclosure-closed;
 }
